@@ -67,7 +67,7 @@ function format(date, format) {
   var month = +split[1];
   var day = +split[2];
 
-  return format.replace(/(\[[^\[]*\])|(Mo|MM?M?M?|Do|DDDo|DD?D?D?|ddd?d?|do?|w[o|w]?|W[o|W]?|Q|YYYYYY|YYYYY|YYYY|YY|gg(ggg?)?|GG(GGG?)?|e|E|a|A|hh?|HH?|mm?|ss?|S{1,4}|X|zz?|ZZ?|.)/g, function (part) {
+  return format.replace(/(\[[^\[]*\])|(YY(YY)?|Mo|M{1,4}|Do|DD?|ddd?d?)/g, function (part) {
     return exports.formatFunctions[part] ? exports.formatFunctions[part](year, month, day) : part.replace(/[\[\]]/g, '');
   });
 }
