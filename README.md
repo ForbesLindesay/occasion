@@ -1,5 +1,7 @@
 # occasion
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ForbesLindesay/occasion.svg)](https://greenkeeper.io/)
+
 A date formatting library based on [moment.js](http://momentjs.com/docs/#/displaying/format/).  By only doing date formatting it is kept really small, and by not dealing with times, it avoids having to deal with time zones.  Pass in your date as a string in the form `YYYY-MM-DD` and get it in a nice format to display to your users.
 
 [![Build Status](https://img.shields.io/travis/ForbesLindesay/occasion/master.svg)](https://travis-ci.org/ForbesLindesay/occasion)
