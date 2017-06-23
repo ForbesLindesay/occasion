@@ -21,21 +21,21 @@ assert.deepEqual(formatDate('2014-06-01', 'ddd D MMM'), 'Sun 1 Jun');
 
 Tokens:
 
-             | Token | Output
--------------|-------|---------------------------------------
-Year         | YY    | 70 71 ... 29 30
-             | YYYY  | 1970 1971 ... 2029 2030
-Month        | M     | 1 2 ... 11 12
-             | Mo    | 1st 2nd ... 11th 12th
-             | MM    | 01 02 ... 11 12
-             | MMM   | Jan Feb ... Nov Dec
-             | MMMM  | January February ... November December
-Day of Month | D     | 1 2 ... 30 31
-             | Do    | 1st 2nd ... 30th 31st
-             | DD    | 01 02 ... 30 31
-Day of Week  | dd    | Su Mo ... Fr Sa
-             | ddd   | Sun Mon ... Fri Sat
-             | dddd  | Sunay Monday ... Friday Saturday
+|              | Token | Output
+---------------|-------|---------------------------------------
+| Year         | YY    | 70 71 ... 29 30
+|              | YYYY  | 1970 1971 ... 2029 2030
+| Month        | M     | 1 2 ... 11 12
+|              | Mo    | 1st 2nd ... 11th 12th
+|              | MM    | 01 02 ... 11 12
+|              | MMM   | Jan Feb ... Nov Dec
+|              | MMMM  | January February ... November December
+| Day of Month | D     | 1 2 ... 30 31
+|              | Do    | 1st 2nd ... 30th 31st
+|              | DD    | 01 02 ... 30 31
+| Day of Week  | dd    | Su Mo ... Fr Sa
+|              | ddd   | Sun Mon ... Fri Sat
+|              | dddd  | Sunay Monday ... Friday Saturday
 
 ## License
 
