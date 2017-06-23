@@ -1,0 +1,5 @@
+// @flow
+
+declare function format(date: string, format: string): string;
+
+module.exports = format;
